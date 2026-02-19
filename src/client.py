@@ -34,7 +34,7 @@ def run_client():
             
             try:
                 if i >= 10: 
-                    if i == 10: print("\n⚡⚡ SIMULATING LINK FAILURE ON PATH A ⚡⚡\n")
+                    if i == 10: print("\n SIMULATING LINK FAILURE ON PATH A \n")
                     raise ConnectionError("Path A Broken")
                 
                 s_primary.send(msg.encode())
