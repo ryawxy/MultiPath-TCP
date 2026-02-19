@@ -12,8 +12,8 @@ MultiPath-TCP is a networking project that implements or explores the Multipath 
 ## Getting Started
 
 ### Prerequisites
-- [List your language/framework requirements]
-- [Required dependencies]
+- Python 3.x
+- `matplotlib` (for generating failover visualization graphs)
 
 ### Installation
 ```bash
